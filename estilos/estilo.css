@@ -21,7 +21,7 @@
 
 .navegacion{
     width: auto;
-    height: 40px;
+    height: 50px;
     padding-top: 20px ;
     text-align: left;
     background: black;
@@ -29,8 +29,6 @@
 }
 
 .nav-boton{
-    
-    margin-top: 30px;
     padding: 10px 50px;
     background: black;
     color: white;
@@ -38,6 +36,7 @@
     display: block;
     float: left;
 }
+
 .nav-boton:hover{
     background: yellow;
     color: black;
@@ -62,14 +61,15 @@ h1{
     
 }
 
-article{
-    width: 200px;
-    height: 300px;
+.article{
+
     
     
 }
 
-
+img{
+    width: 400px;
+}
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
 
 .footer{
