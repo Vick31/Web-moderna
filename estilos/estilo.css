@@ -1,14 +1,14 @@
 
 *{
-
+    list-style: none;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+    
 }
 
 /*-----------------------------------------CABECERA------------------------------------------*/
 
-header{
+.cabecera{
     background-image: url(../img/blue-flowers-with-macro-4-1400913-1920x1440.jpg);
     background-repeat: none;
     background-size: cover;
@@ -19,27 +19,31 @@ header{
 
 }
 
-nav{
+.navegacion{
     width: auto;
     height: 40px;
     padding-top: 20px ;
     text-align: left;
     background: black;
-
+    
 }
 
 .nav-boton{
-
+    
     margin-top: 30px;
     padding: 10px 50px;
     background: black;
     color: white;
     text-decoration: none;
+    display: block;
+    float: left;
 }
 .nav-boton:hover{
     background: yellow;
     color: black;
 }
+
+
 
 h1{
     width: 200px;
@@ -52,20 +56,18 @@ h1{
 
 /*-------------------------------------------SECCION---------------------------------------------*/
 
-.seccion{
+.novedades{
     width: auto;
     height: 100vh;
+    
 }
 
 article{
     width: 200px;
     height: 300px;
     
+    
 }
-
-
-
-
 
 
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
