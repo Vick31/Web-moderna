@@ -1,0 +1,68 @@
+
+*{
+
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------CABECERA------------------------------------------*/
+
+header{
+    background-image: url(../img/mujer-sexy-delgada-bronceada-perfecta-playa-tropical-joven-rubia-divertirse-disfrutar-sus-vacaciones-verano_273443-682.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    color: white;
+
+}
+
+h1{
+    width: auto;
+    height: 40vh;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+
+nav{
+    width: auto;
+    height: 60px;
+    padding-top: 20px;
+    text-align: left;
+    background: black;
+
+}
+
+.nav-boton{
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*-------------------------------------------SECCION---------------------------------------------*/
+
+section{
+    width: auto;
+    height: 100vh;
+}
+
+
+
+
+
+
+/*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
+
+footer{
+    width: auto;
+    height: 50vh;
+}
+
+
+
