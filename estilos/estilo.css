@@ -21,11 +21,11 @@
 
 .navegacion{
     width: auto;
-    height: 50px;
-    padding-top: 20px ;
+    height: 45px;
+    padding-top: 5px ;
     text-align: left;
     background: black;
-    
+
 }
 
 .nav-boton{
@@ -35,14 +35,14 @@
     text-decoration: none;
     display: block;
     float: left;
+
 }
 
 .nav-boton:hover{
     background: yellow;
     color: black;
+
 }
-
-
 
 h1{
     width: 200px;
@@ -55,17 +55,37 @@ h1{
 
 /*-------------------------------------------SECCION---------------------------------------------*/
 
-.novedades{
+
+.seccion{
     width: auto;
     height: 100vh;
-    
+}
+
+.seccion{
+    width: auto;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center center;
+}
+
+.article-content{
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px ;
+    width: 250px;
+    height: 300px;
+    display: block;
+    float: left;
+}
+
+.img-article{
+    width: 250px;
 }
 
 
-
-img{
-    width: 400px;
-}
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
 
 .footer{
