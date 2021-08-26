@@ -90,7 +90,34 @@ h1{
 
 .footer{
     width: auto;
-    height: 50vh;
+    height: auto;
+    background: rgb(78, 76, 76);
+    color: white;
+}
+
+.footer-form{
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.contacto{
+    background: black;
+    padding: 15px;
+    
+}
+
+.boton-footer{
+    background: black;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.boton-footer:hover{
+    background: gray;
+    color: white;
 }
 
 
