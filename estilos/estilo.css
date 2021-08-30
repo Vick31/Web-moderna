@@ -3,19 +3,22 @@
     list-style: none;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
 html{
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 /*-----------------------------------------CABECERA------------------------------------------*/
 
 .cabecera{
-    background-image: url(../img/blue-flowers-with-macro-4-1400913-1920x1440.jpg);
-    background-repeat: none;
+    background: url(../img/fondos-web.jpg ) no-repeat center fixed;
     background-size: cover;
-    background-position: center center;
     width: auto;
     height: 100vh;
     color: white;
@@ -28,7 +31,7 @@ html{
     padding-top: 5px ;
     text-align: left;
     background: black;
-    position: fixed;
+    
 
 }
 
@@ -40,12 +43,18 @@ html{
     display: block;
     float: left;
 
+    transform: scale(0.95);
+    transition: all 200ms ease-out;
+
 }
 
 
 .nav-boton:hover{
     background: gray;
     color: white;
+
+    transform: scale(1);
+    transition: all 200ms ease-out;
 }
 
 h1{
@@ -59,13 +68,20 @@ h1{
 
 /*-------------------------------------------SECCION---------------------------------------------*/
 
-.seccion{
+#seccion1 .container{
+    border: 1px solid red;
+    align-content: center;
     width: auto;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    background: rgb(241, 229, 247);
+}
+
+#seccion2 .container{
+    border: 1px solid red;
+    align-content: center;
+    width: auto;
+    height: 100vh;
+    text-align: center;
 }
 
 .article-content{
@@ -75,22 +91,34 @@ h1{
     border-radius: 15px;
     padding: 10px ;
     width: 250px;
-    height: 300px;
+    height: 260px;
     background: white;
     display: block;
     float: left;
+    position: relative ;
+
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all 400ms ease-out;
+
+    border: 1px solid red;
+
+}
+
+.article-content:hover{
+    transform: scale(1);
+    transition: all 200ms ease-out;
 }
 
 .img-article{
     width: 250px;
 }
 
-
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
 
 .footer{
     width: auto;
-    height: auto;
+    height: 50vh;
     background: rgb(78, 76, 76);
     color: white;
 }
@@ -105,9 +133,6 @@ h1{
     margin-bottom: 50px;
 }
 
-.footer-form{
-
-}
 .contacto{
     background: black;
     padding: 15px;
@@ -118,13 +143,19 @@ h1{
     background: black;
     color: white;
     margin-top: 20px;
-    padding: 15px 30px;
+    padding: 10px 30px;
     text-decoration: none;
+
+    transform: scale(0.95);
+    transition: all 200ms ease-out;
 }
 
 .boton-footer:hover{
     background: gray;
     color: white;
+
+    transform: scale(1);
+    transition: all 200ms ease-out;
 }
 
 
