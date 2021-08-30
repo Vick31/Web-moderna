@@ -68,9 +68,15 @@ h1{
 
 /*-------------------------------------------SECCION---------------------------------------------*/
 
+h3{
+    border: 1px solid red;
+    margin-top: 5rem;
+}
+
 #seccion1 .container{
     border: 1px solid red;
-    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
     width: auto;
     height: 100vh;
     text-align: center;
@@ -85,27 +91,18 @@ h1{
 }
 
 .article-content{
-    margin-top: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 15px;
-    padding: 10px ;
+    display: inline-block;
     width: 250px;
-    height: 260px;
-    background: white;
-    display: block;
-    float: left;
-    position: relative ;
-
-    cursor: pointer;
-    transform: scale(0.95);
-    transition: all 400ms ease-out;
-
+    height: 300px;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border: 1px solid red;
 
 }
 
 .article-content:hover{
+
     transform: scale(1);
     transition: all 200ms ease-out;
 }
@@ -118,7 +115,7 @@ h1{
 
 .footer{
     width: auto;
-    height: 50vh;
+    height: 100vh;
     background: rgb(78, 76, 76);
     color: white;
 }
