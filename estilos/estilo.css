@@ -77,7 +77,6 @@ h1{
 /*-------------------------------------------SECCION---------------------------------------------*/
 
 h3{
-    border: 1px solid red;
     margin-top: 5rem;
     margin-left: 15rem;
     text-align: left;
@@ -104,7 +103,7 @@ h3{
     display: inline-block;
     width: 250px;
     height: 300px;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     border: 1px solid red;
@@ -121,10 +120,29 @@ h3{
     transition: all 200ms ease-out;
 }
 
+.target-text{
+    border: 1px solid red;
+}
+
+
+.target-footer{
+    margin-top: 1rem;
+    text-align: left;
+    border: 0.5px solid rgb(216, 212, 212);
+    background: rgb(240, 233, 233);
+
+    clear: both;
+}
+
 .img-article{
     width: 250px;
 }
 
+h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
 
 .footer{
