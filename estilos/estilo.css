@@ -37,12 +37,21 @@ html{
 }
 
 .navegacion{
-    width: 100%;
+    width: auto;
     height: 45px;
     padding-top: 5px ;
-    text-align: left;
     background: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 
+.navegacion ul li{
+    display: inline-block;
+}
+
+.navegacion ul li a{
+    display: block;
 }
 
 .nav-boton{
@@ -51,7 +60,8 @@ html{
     color: white;
     text-decoration: none;
     display: block;
-    float: left;
+
+
     transform: scale(0.95);
     transition: all 200ms ease-out;
 
@@ -192,6 +202,7 @@ h4{
     width: 20rem;
     height: 2rem;
     color: red;
+    
 }
 
 .contacto{
