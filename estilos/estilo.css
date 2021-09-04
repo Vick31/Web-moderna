@@ -1,12 +1,7 @@
-
-
-
-
 *{
     list-style: none;
     margin: 0;
 }
-
 
 html{
     scroll-behavior: smooth;
@@ -20,10 +15,16 @@ body{
     background: rgb(42, 36, 71);
 }
 
-/*-----------------------------------------CABECERA------------------------------------------*/
+
+
+
+/*---------CABECERA--------*/
+
+
+
 
 #inicio{
-    background: linear-gradient(rgba(42, 35, 71, 0.2), rgba(42,36,71.2)), url(../img/dj-690986_1920.jpg) no-repeat center fixed;
+    background: linear-gradient(rgba(42, 35, 71, 0.1), rgba(42,36,71.1)), url(../img/music-998228_1920.jpg) no-repeat center fixed;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -33,7 +34,7 @@ body{
 
 .titulo{
     width: 900px;
-    padding-top: 10rem;
+    padding-top: 5rem;
     font-size: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +47,6 @@ h1{
     font-family: cursive;
 }
 
-
 .logo{
     font-family: cursive;
     color: white;
@@ -58,16 +58,6 @@ h1{
 .logo-gt{
     color: blue;
     font-weight: bolder;
-}
-
-.video-cabecera{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: auto;
-    height: 100vh;
-    z-index: -10;
-    visibility: visible;
 }
 
 .navegacion{
@@ -105,144 +95,12 @@ h1{
 
 }
 
-
 .nav-boton:hover{
 
     color: white;
 
     transform: scale(1.1);
     transition: all 200ms ease-out;
-}
-
-
-
-
-/*-------------------------------------------SECCION---------------------------------------------*/
-
-.subtitulos{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.subtitulos h3{
-    color: white;
-    font-size: 3rem;
-}
-
-
-
-
-#seccion1 .container{
-    width: auto;
-    height: 100vh;
-    text-align: center;
-    border-top: 1px solid rgb(42, 36, 71);
-}
-
-
-#seccion2 .container{
-    align-content: center;
-    width: auto;    
-    height: 100vh;
-    text-align: center;
-    border-top: 1px solid rgb(42, 36, 71);
-}
-
-.article-content{
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    background: white;
-    
-
-    cursor: pointer;
-    transform: scale(0.95);
-    transition: all 400ms ease-out;
-
-}
-
-.article-content:hover{
-    box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
-    transform: scale(1);
-    transition: all 200ms ease-out;
-}
-
-
-.target-text span{
-    background: rgb(38, 184, 194);
-    padding: 10px 40px;
-    border-radius: 40px;
-    color: white;
-}
-
-.target-text p{
-    margin-top: 20px;
-    font-weight: bolder;
-    font-size: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.img-article{
-    
-    width: 300px;
-    height: 250px;
-}
-
-
-/*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
-
-.form-footer{
-
-    width: auto;
-    height: 100vh;
-    color: white;
-    border: 1px solid rgb(42, 36, 71);
-
-}
-
-.login{
-    background:url(../img/music-998228_1920.jpg) no-repeat center fixed;
-    width: auto;
-    height: 100vh;
-    margin-top: rem;
-    text-align: center;
-    border-top: 1px solid rgb(42, 36, 71);
-}
-
-.form{
-    width: max-content;
-    height: auto;
-    margin-top: 6rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3rem;
-    background: rgba(19, 16, 32, 0.9);
-}
-
-.form-login{
-    width: 20rem;   
-    margin-top: 0.7rem;
-    padding: 1rem;
-    color: white;
-    background: none ;
-    border: 0;
-    border-bottom: 3px solid white;
-    outline: none;
-}
-.botton-form{
-    width: 20rem;
-    height: 3rem;
-    background: black;
-    color: white;
-    cursor: pointer;
-    border: 0;
 }
 
 .contacto{
@@ -272,4 +130,155 @@ h1{
     transform: scale(1.2);
     transition: all 200ms ease-out;
 }
+
+
+
+/*-----------SECCIONES----------*/
+
+
+
+
+.subtitulos{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.subtitulos h3{
+    color: white;
+    font-size: 3rem;
+}
+
+#seccion1 .container{
+    width: auto;
+    height: 100vh;
+    text-align: left;
+    border-top: 1px solid rgb(42, 36, 71);
+}
+
+.img-seccion1 {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.img-seccion1 img{
+    position: center center;
+    width: 300px;
+    height: 320px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all 400ms ease-out;
+}
+
+img:hover{
+    box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
+    transform: scale(1);
+    transition: all 200ms ease-out;
+}
+
+#seccion2 .container{
+    align-content: center;
+    width: auto;    
+    height: 100vh;
+    text-align: center;
+    border-top: 1px solid rgb(42, 36, 71);
+}
+
+.article-content{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background: white;
+    
+
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all 400ms ease-out;
+}
+
+.article-content:hover{
+    box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
+    transform: scale(1);
+    transition: all 200ms ease-out;
+}
+
+.target-text span{
+    background: rgb(38, 184, 194);
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: white;
+}
+
+.target-text p{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-article{
+    
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+/*--------PIE-DE-PAGINA---------*/
+
+
+
+
+.form-footer{
+    background: linear-gradient(rgba(42,36,71.1), rgba(42, 35, 71, 0.1)), url(../img/dj-690986_1920.jpg) no-repeat center fixed;
+    width: auto;
+    height: 100vh;
+    color: white;
+    border: 1px solid rgb(42, 36, 71);
+
+}
+.login{
+    width: auto;
+    height: 100vh;
+    margin-top: rem;
+    text-align: center;
+    border-top: 1px solid rgb(42, 36, 71);
+}
+.form{
+    width: max-content;
+    height: auto; 
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    background: rgba(19, 16, 32, 0.7);
+}
+.form-login{
+    width: 20rem;   
+    margin-top: 0.7rem;
+    padding: 1rem;
+    color: white;
+    background: none ;
+    border: 0;
+    border-bottom: 3px solid white;
+    outline: none;
+}
+.botton-form{
+    width: 20rem;
+    height: 3rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
 
