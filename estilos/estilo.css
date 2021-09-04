@@ -195,6 +195,7 @@ h1{
     height: 250px;
 }
 
+
 /*-----------------------------------------PIE-DE-PAGINA------------------------------------------*/
 
 .form-footer{
@@ -202,34 +203,46 @@ h1{
     width: auto;
     height: 100vh;
     color: white;
+    border: 1px solid rgb(42, 36, 71);
 
 }
 
 .login{
+    background:url(../img/music-998228_1920.jpg) no-repeat center fixed;
     width: auto;
-    height: auto;
-    padding-top: 6rem;
-    padding-bottom: 5rem;
+    height: 100vh;
+    margin-top: rem;
     text-align: center;
+    border-top: 1px solid rgb(42, 36, 71);
+}
 
+.form{
+    width: max-content;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    background: rgba(19, 16, 32, 0.9);
 }
 
 .form-login{
     width: 20rem;   
-    margin: 1px;
-    padding: 0.5rem;
-    border: 0.5px solid white; 
+    margin-top: 0.7rem;
+    padding: 1rem;
     color: white;
-    border-radius: 3px;
     background: none ;
-    backdrop-filter: blur(10px);
-    
+    border: 0;
+    border-bottom: 3px solid white;
+    outline: none;
 }
 .botton-form{
     width: 20rem;
-    height: 2rem;
-    color: red;
-    
+    height: 3rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
 }
 
 .contacto{
