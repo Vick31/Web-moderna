@@ -243,13 +243,11 @@ img:hover{
     width: auto;
     height: 100vh;
     color: white;
-    border: 1px solid rgb(42, 36, 71);
 
 }
 .login{
     width: auto;
     height: 100vh;
-    margin-top: rem;
     text-align: center;
     border-top: 1px solid rgb(42, 36, 71);
 }
