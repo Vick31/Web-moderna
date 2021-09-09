@@ -352,11 +352,11 @@ h1{
 .efecto{
     position: relative;
     filter: opacity(0%);
-    -webkit-transition: all 900ms ease-out;
-    -moz-transition: all 900ms ease-out;
-    -ms-transition: all 900ms ease-out;
-    -o-transition: all 900ms ease-out;
-    transition: all 900ms ease-out;
+    -webkit-transition: all 600ms ease-out;
+    -moz-transition: all 600ms ease-out;
+    -ms-transition: all 600ms ease-out;
+    -o-transition: all 600ms ease-out;
+    transition: all 600ms ease-out;
 }
 
 
@@ -376,8 +376,58 @@ h1{
     bottom: -400px;
 }
 
+.d0{
+    -webkit-transition: all 600ms ease-out;
+    -moz-transition: all 600ms ease-out;
+    -ms-transition: all 600ms ease-out;
+    -o-transition: all 600ms ease-out;
+    transition: all 600ms ease-out;
+}
 
+.d1{
+    -webkit-transition: all 600ms ease-out 100ms;
+    -moz-transition: all 600ms ease-out 100ms;
+    -ms-transition: all 600ms ease-out 100ms;
+    -o-transition: all 600ms ease-out 100ms;
+    transition: all 600ms ease-out 100ms;
+}
 
+.d2{
+    -webkit-transition: all 600ms ease-out 200ms;
+    -moz-transition: all 600ms ease-out 200ms;
+    -ms-transition: all 600ms ease-out 200ms;
+    -o-transition: all 600ms ease-out 200ms;
+    transition: all 600ms ease-out 200ms;
+}
 
+.d3{
+    -webkit-transition: all 600ms ease-out 300ms;
+    -moz-transition: all 600ms ease-out 300ms;
+    -ms-transition: all 600ms ease-out 300ms;
+    -o-transition: all 600ms ease-out 300ms;
+    transition: all 600ms ease-out 300ms;
+}
 
+.d4{
+    -webkit-transition: all 600ms ease-out 400ms;
+    -moz-transition: all 600ms ease-out 400ms;
+    -ms-transition: all 600ms ease-out 400ms;
+    -o-transition: all 600ms ease-out 400ms;
+    transition: all 600ms ease-out 400ms;
+}
 
+.d5{
+    -webkit-transition: all 600ms ease-out 500ms;
+    -moz-transition: all 600ms ease-out 500ms;
+    -ms-transition: all 600ms ease-out 500ms;
+    -o-transition: all 600ms ease-out 500ms;
+    transition: all 600ms ease-out 500ms;
+}
+
+.d6{
+    -webkit-transition: all 600ms ease-out 600ms;
+    -moz-transition: all 600ms ease-out 600ms;
+    -ms-transition: all 600ms ease-out 600ms;
+    -o-transition: all 600ms ease-out 600ms;
+    transition: all 600ms ease-out 600ms;
+    }
