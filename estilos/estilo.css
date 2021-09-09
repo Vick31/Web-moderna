@@ -349,12 +349,32 @@ h1{
     border: 0;
 }
 
+.efecto{
+    position: relative;
+    filter: opacity(0%);
+    -webkit-transition: all 900ms ease-out;
+    -moz-transition: all 900ms ease-out;
+    -ms-transition: all 900ms ease-out;
+    -o-transition: all 900ms ease-out;
+    transition: all 900ms ease-out;
+}
 
 
+.e-right{
+    right: -400px;
+}
 
+.e-left{
+    left: -400px;
+}
 
+.e-top{
+    top: -400px;
+}
 
-
+.e-bottom{
+    bottom: -400px;
+}
 
 
 
