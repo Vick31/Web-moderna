@@ -153,7 +153,7 @@ h1{
 }
 
 #seccion1{
-    background: linear-gradient(rgba(42, 35, 71, 0.1), rgb(0, 0, 0)), url(../img/woman-944261_1920.jpg) no-repeat center fixed;
+    background: url(../img/woman-944261_1920.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -295,7 +295,7 @@ h1{
 }
 
 .img-article{
-    
+    object-fit: cover;
     width: 300px;
     height: 250px;
 }
@@ -321,7 +321,7 @@ h1{
 
 
 .form-footer{
-    background: linear-gradient(rgb(0, 0, 0), rgba(42, 35, 71, 0.1)), url(../img/dj-690986_1920.jpg) no-repeat center fixed;
+    background: url(../img/dj-690986_1920.jpg) no-repeat center fixed;
     width: auto;
     height: 100vh;
     color: white;

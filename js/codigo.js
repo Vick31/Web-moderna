@@ -2,6 +2,8 @@ $(document).ready(
 
     function () {
 
+        deslizar($('#inicio'), $('#inicio .efecto'));
+
         $(window).scroll(
 
             function () {
@@ -12,6 +14,11 @@ $(document).ready(
                 deslizar($('#album2'), $('#album2 .efecto'));
                 deslizar($('#formulario'), $('#formulario .efecto'));
 
+                efecto_parallax($('#inicio'), 0.3);
+                efecto_parallax($('#seccion1'), 0.3);
+                efecto_parallax($('#albumes'), 0.3);
+                efecto_parallax($('#album2'), 0.3);
+                efecto_parallax($('#formulario'), 0.3);
             }
         )
     }
@@ -57,3 +64,10 @@ function deslizar(padre, hijo) {
     );
 }
 
+function efecto_parallax(div, speed) {
+
+    var diff = $(window).scrollTop() - div.offset().top;
+    var pos_y = -(diff * speed);
+    var  coordenadas = '0 ' + pos_y + 'px'
+    div.css({'background-position': coordenadas});
+}   
