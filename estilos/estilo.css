@@ -20,12 +20,12 @@ html{
 
 
 #inicio{
-    background:  url(../img/music-998228_1920.jpg) no-repeat center fixed;
+    background:  url(../img/music-998228_1920.jpg) no-repeat fixed;
     background-size: cover;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .titulo{
